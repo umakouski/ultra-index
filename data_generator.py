@@ -22,7 +22,7 @@ if len(argv) > 2:
 if len(argv) > 3:
     e = float(argv[3])
 
-run = getUltraCoeff(d, v, samples, e)
+run = getUltraCoeff(d, v, samples, e, prt=True)
 
 '''
 s = 0

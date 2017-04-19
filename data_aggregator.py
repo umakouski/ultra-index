@@ -46,7 +46,7 @@ for d in dim:
     line = line + "\n"
     f.write(line)
 
-    out = int(round(float(d)*100/dim_2))
+    out = int(round(float(d - dim_1)*100/(dim_2 - dim_1)))
     if out > out0:
         out0 = out
         print out,"%"
