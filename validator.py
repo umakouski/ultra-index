@@ -49,6 +49,7 @@ for d in dim:
         else:
             x = setPoint(d,vert)
 	    y = setPoint(d,vert)
+	# !!! return after experiment dE to dH !!!
             line = line + "," + str(dH(x,y,d))
     line = line + "\n"
     f.write(line)
